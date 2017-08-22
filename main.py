@@ -10,6 +10,8 @@ import data
 import model
 from data import read_test
 
+CUDA_VISIBLE_DEVICES=[0]
+
 parser = argparse.ArgumentParser(description='PyTorch PennTreeBank RNN/LSTM Language Model')
 parser.add_argument('action', choices=['train', 'test'])
 parser.add_argument('--data', type=str, default='./data/',

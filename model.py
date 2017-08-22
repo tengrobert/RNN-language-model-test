@@ -1,6 +1,6 @@
 import torch.nn as nn
 from torch.autograd import Variable
-
+CUDA_VISIBLE_DEVICES=[1]
 class RNNModel(nn.Module):
     """Container module with an encoder, a recurrent module, and a decoder."""
 
