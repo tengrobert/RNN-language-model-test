@@ -33,3 +33,5 @@ This code is modified from pytorch example (https://github.com/pytorch/examples)
     4. Gernerating sentence
         * python3 generate.py --cuda --checkpoint <model_path>
             
+=======
+# RNN-language-model-test
